@@ -1,5 +1,7 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,33 @@
   text-decoration: none;
 }
 
+/* Global */
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 1.5rem;
+}
+
+.header-image {
+  height: 4.5rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-menu-item {
+  color: #fff2e7;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
 }
