@@ -94,3 +94,31 @@ body {
 .content-primary-image {
   height: 26.875rem;
 }
+
+/* > Secondary */
+.content-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin-top: 3rem;
+}
+
+.content-secondary-title {
+  border-top: 0.025rem solid #fff2e7;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+
+  color: #fff2e7;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Righteous', cursive;
+}
+
+.content-secondary-paragraph {
+  color: #ecd6c4;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
+}
