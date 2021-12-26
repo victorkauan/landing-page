@@ -39,3 +39,58 @@ body {
   font-weight: 400;
   font-family: 'Sarala', sans-serif;
 }
+
+/* Content */
+.content {
+  border-top: 0.025rem solid #fff2e7;
+  margin-bottom: 3rem;
+}
+
+/* > Primary */
+.content-primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* - Text */
+.content-primary-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-primary-text-title {
+  color: #fff2e7;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Righteous', cursive;
+}
+
+.content-primary-text-subtitle {
+  color: #ecd6c4;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
+}
+
+.content-primary-text-button {
+  height: 4rem;
+  width: 11.5rem;
+  background: #ecd6c4;
+
+  border: none;
+  border-radius: 1.25rem;
+
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+  color: #2f2325;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
+}
+
+/* - Image */
+.content-primary-image {
+  height: 26.875rem;
+}
