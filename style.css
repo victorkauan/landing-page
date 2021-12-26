@@ -122,3 +122,15 @@ body {
   font-weight: 400;
   font-family: 'Sarala', sans-serif;
 }
+
+/* Footer */
+.footer {
+  border-top: 0.025rem solid #fff2e7;
+  padding: 2rem;
+}
+
+.footer-image {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
